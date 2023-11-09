@@ -21,7 +21,7 @@
   <td><img src="image/${product.id}.jpg" height="64"></td>
   <td>${product.name}</td>
   <td>${product.price}円</td>
-  <td><a href="CartAdd.action?id={product.id}">カートに追加</a></td>
+  <td><a href="CartAdd.action?id=${product.id}">カートに追加</a></td>
   </tr>
 </c:forEach>
 </table>
