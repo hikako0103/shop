@@ -5,6 +5,7 @@
 <title>ログアウト</title>
 </head>
 <body>
+<%@include file="menu.jsp" %>
 
 <p>ログアウトしますか？</p>
 <p><a href="Logout.action">ログアウト</a></p>

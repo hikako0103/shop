@@ -6,6 +6,7 @@
 <title>ログアウト</title>
 </head>
 <body>
+<%@include file="menu.jsp" %>
 
 こんにちは、${cust.login}さん。
 
